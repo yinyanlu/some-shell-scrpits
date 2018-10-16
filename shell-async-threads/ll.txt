@@ -1,0 +1,10 @@
+total 4608	tab space
+-rw-r--r--@:1 innobeji  staff   548B 10 11 21:30 Concurrency.sh
+-rw-r--r--  1 innobeji  staff   1.4M 10 11 16:25 l5-modified.mp4
+-rw-r--r--  1 innobeji  staff   828K 10 11 16:17 l5.mp4
+-rw-r--r--  1 innobeji  staff     0B 10 12 01:54 ll.txt
+-rw-------  1 innobeji  staff   253B 10 12 00:10 nohup.out
+-rw-r--r--@ 1 innobeji  staff   520B 10 11 21:24 threadctl.sh
+-rw-r--r--  1 innobeji  staff   490B 10 11 21:24 threadctl.sh.log
+-rw-r--r--@ 1 innobeji  staff   525B 10 11 23:29 wait.sh
+-rw-r--r--@ 1 innobeji  staff    86B 10 12 01:52 while.sh
