@@ -8,8 +8,9 @@ output="$1.out"
 
 while read ip
 do
-	echo -en $ip >> $output 2>&1 
-	echo `curl -H "cookie: $cookie" https://fusion-admin.qiniu.io/api/v1/servicequery/services?ip=$ip` >> $output 2>&1
-	echo >>$output 2>&1
+	echo -en "$ip\t" >> $output 2>&1 
+	echo -en "`curl -H "cookie: $cookie" https://fusion-admin.qiniu.io/api/v1/servicequery/services?ip=$ip`\t" >> $output 2>&1
+	echo `curl http://ipquery.qiniudns.com/v2/ipquery/ipview/$ip` >> $output 2>&1
+
 done < $input
 
