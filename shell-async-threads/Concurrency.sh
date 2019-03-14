@@ -5,6 +5,7 @@
 #原理：
 #https://www.cnblogs.com/chenjiahe/p/6268853.html
 #http://blog.51cto.com/egon09/1754317
+#http://www.cnblogs.com/qinqiao/p/concurrent_by_shell_mkfifo.html
 #
 #
 #
