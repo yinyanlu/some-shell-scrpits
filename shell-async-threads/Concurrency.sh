@@ -102,6 +102,7 @@ done >&6
 j=0
 while read line
 do
+  read -u6                           #代表从管道中读取一个令牌
   ((j++))
   {
     a_sub $line >> $logs 2>&1
